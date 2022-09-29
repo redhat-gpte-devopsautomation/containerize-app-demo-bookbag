@@ -3,7 +3,3 @@ name: Bookbag Template
 modules:
   activate:
     - overview
-    - exercise1
-    - exercise2
-    - exercise3
-    - review
