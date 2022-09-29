@@ -101,10 +101,6 @@ buildah run ubi-working-container -- yum -y install moon-buggy
 ----
 
 
-From the above output, you can see that `moon-buggy` was successfully installed
-into the container.  The `yum` transaction also installed several required
-pieces of software as well.
-
 == Committing the new container image
 
 . At this point, the container is configured.  It is time to transition from a
