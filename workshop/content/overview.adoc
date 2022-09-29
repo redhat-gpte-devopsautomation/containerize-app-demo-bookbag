@@ -114,8 +114,6 @@ the `buildah` command to commit the working container to an image called:
 buildah commit ubi-working-container moon-buggy
 ----
 
-. The above output shows that the commit was successful, however you can verify
-this by looking at the available container images on the system.
 
 +
 [source,bash,role=execute]
@@ -123,8 +121,6 @@ this by looking at the available container images on the system.
 podman image list
 ----
 
-. Notice in the output above that `moon-buggy` is the first container image
-listed in the `podman image list` output.
 
 == Running the new containerized software
 . Now the software has been installed and a new container image created.  It is
