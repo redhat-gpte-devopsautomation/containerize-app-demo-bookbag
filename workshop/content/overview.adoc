@@ -1,24 +1,23 @@
 :guid: %guid%
-:user: %user%
-:markup-in-source: verbatim,attributes,quotes
+:user: devops
+:user_password: %ssh_password%
+:numbered:
+:lab_name: Containerize Application
+
+= {lab_name}
+
 
 == Overview
-
 In this workshop you will... to be completed by the workshop developer.
-The following content is an example of what to include in an overview.
 
 === Lab Access
-
-You can access your lab environment as {user} with password "{ssh_password}" with the following command:
-
-[source,bash,options="nowrap",subs="{markup-in-source}"]
+. You can access your lab environment as *{user}* with password *%ssh_password%* with the following command.
++
+[source,bash,role=execute]
 ----
-%ssh_command%
+{ssh_command}
 ----
 
-Your lab GUID is "{guid}".
-
-An example var was set to %example_var%.
 
 === Workshop Information
 
