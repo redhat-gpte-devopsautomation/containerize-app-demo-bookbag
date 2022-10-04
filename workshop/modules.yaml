@@ -2,3 +2,9 @@
 modules:
   overview:
     name: Overview
+    exit_sign: Continue
+  rpm-native-container:
+    name: Containerized RPM App
+    exit_sign: Continue
+  github-sourced-container:
+    name: GitHub Managed App

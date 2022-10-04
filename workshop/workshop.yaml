@@ -3,3 +3,5 @@ name: Containerize App Demo Bookbag
 modules:
   activate:
     - overview
+    - rpm-native-container
+    - github-sourced-container
