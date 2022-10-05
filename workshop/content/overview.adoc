@@ -6,10 +6,26 @@
 
 = {lab_name}
 
+== Presentation of Materials
+
+You are viewing a landing page called the *Dashboard*. The dashboard has the instructions and a terminal side by side.
+
+This demo is designed to show the customer a separate terminal window with the presenter working from the dashboard.
+
+NOTE: The dashboard terminal and the projected terminal are mirrored. Whatever you type in the dashboard terminal will be replicated on the terminal window shared with customers.
+
+Deploy mirrored terminal window:
+
+. Click the three horizontal bars at the upper right-hand corner of the dashboard and select *Open Terminal* 
+
+. Click and drag the browser tab to separate the window if needed
+
 == About This Demo
 * First, we will build a monolithic application already compiled as RPM packages and put it into a container. This will allow us to deploy the application, copy it between machines, and update it separately from the operating system. This process affords us a portable and easily maintained component instead of tightly coupling the application with your operating system maintenance.
 
 * In closing we will build a second container on a different operating system version that makes an application not packaged into RPMs. This will be similar to a web application deployment, positioning the correct files at the right locations. To do this, we will pull a project from GitHub and position the component files within our container image. The purpose of this is to achieve a portable application container that can deploy on several different versions of Red Hat Enterprise Linux. This also provides the benefit of decoupling your application maintenance, which would all happen by building new containers versus operating system maintenance. The container is no longer reliant on the operating system installed on the machine where the application is deployed.
+
+* Clicking the command code blocks inside the instructions will automatically push them into the terminal window.
 
 === Lab Access
 . You can access your lab environment as *{user}* with password *%ssh_password%* with the following command.
